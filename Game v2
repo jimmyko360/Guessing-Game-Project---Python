@@ -21,6 +21,8 @@ while guess != cpu_num:
             print("GETTING WARMER!")
         elif abs(cpu_num - attempts[-1]) > abs(cpu_num - attempts[-2]):
             print("GETTING COLDER!")
+            
+# no condition specified for scenario in which subsequent guess is exactly the same distance away as previous guess
 
 # you can nest if statements within themselves, even within the ELIF and ELSE portions
 
